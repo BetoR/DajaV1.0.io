@@ -1,0 +1,43 @@
+<section id="servicios">
+      <h2>¿POR QUÉ ELEGIRNOS?</h2>
+      <section class="eleccion">
+        <ol>
+          <li>
+            Experiencia y Trayectoria en DAJA: Con una trayectoria sólida y años
+            de experiencia en el sector de seguridad privada, en DAJA hemos
+            demostrado nuestro compromiso con la protección efectiva de nuestros
+            clientes.
+          </li>
+          <li>
+            Equipo Altamente Capacitado de DAJA: Nuestro equipo está compuesto
+            por profesionales expertos y altamente capacitados, asegurando que
+            cada situación se maneje con habilidad y profesionalismo.
+          </li>
+          <li>
+            Integridad y Confianza: En DAJA, nos regimos por los más altos
+            estándares de integridad, asegurando transparencia y confianza en
+            todas nuestras operaciones y relaciones comerciales.
+          </li>
+          <li>
+            Uso de Tecnología Asequible y Eficaz: En DAJA, aprovechamos
+            tecnologías eficientes y accesibles que nos permiten ofrecer
+            soluciones de seguridad efectivas sin comprometer la calidad ni el
+            presupuesto de nuestros clientes.
+          </li>
+          <li>
+            Enfoque Personalizado de DAJA: En DAJA, nos enfocamos en ofrecer un
+            servicio al cliente excepcional y personalizado. Entendemos las
+            necesidades individuales de cada cliente y adaptamos nuestras
+            soluciones para garantizar su seguridad.
+          </li>
+          <li>
+            Reputación y Referencias de DAJA: Nuestra reputación en el mercado
+            está respaldada por testimonios positivos, referencias de clientes
+            satisfechos y casos de éxito probados. En DAJA, construimos
+            relaciones de confianza duraderas con nuestros clientes.
+          </li>
+        </ol>
+      </section>
+    </section>
+
+    
