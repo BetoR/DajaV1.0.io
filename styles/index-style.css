@@ -2,11 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-weight: bold;
 }
 
 header {
-  background-color: rgb(0, 0, 0);
-  background-image: url(/DAJA/assets/fondos/fondo1.jpg);
+  background-color: #17252a;
+  /* background-image: url(/assets/fondos/fondo1.jpg); */
   background-size: contain;
   width: 100%;
   height: 180px;
@@ -35,7 +36,8 @@ header .container-menu {
 }
 .menu a {
   text-decoration: none;
-  color: gold;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 .menu a:hover {
   color: rgb(27, 75, 233);
@@ -49,7 +51,7 @@ header .container-menu {
 }
 
 .inicio {
-  background-color: #454545;
+  background-color:#2b7a78;
   width: 100%;
   padding: 0px;
 }
@@ -59,11 +61,11 @@ header .container-menu {
 }
 
 #conocenos {
-  background-color: #4d4d4d;
+  background-color: #3aafa9;
   padding: 20px;
   background-size: cover;
   width: 100%;
-  height: 400px;
+  height: 450px;
   display: flex;
 }
 #conocenos h2 {
@@ -88,7 +90,7 @@ header .container-menu {
 
 
 #servicios {
-  background-color: #4f4f4f;
+  background-color: #def2f1;
   width: 100%;
   color: white;
   padding: 50px;
@@ -97,14 +99,16 @@ header .container-menu {
   width: 100%;
   text-align: center;
   font-size: 50px;
+  color: #000000;
+  font-weight:bolder;
 }
 .cards-servicios{
     display: flex;
 
 }
 .card-servicios{
-    background-color: #5e5e5e;
-    border-radius: 15px;
+   /*  background-color: #2c434b; */
+    color: black;
     width: 700px;
     margin: 0px 30px;
 }
@@ -113,31 +117,11 @@ header .container-menu {
     text-align: center;
 }
 .card-servicios p{
-    text-align: left;
+    text-align: center;
+    font-weight: 400;
 }
 .img-card-servicios{
     width: 200px;
-}
-
-/* Definición de la animación */
-@keyframes brillo {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
-  }
-  
-  /* Aplicación de la animación a un elemento */
-  #elemento-brillo {
-    animation: brillo 3s infinite ; /* Nombre de la animación, duración (2 segundos), y repetición infinita */
-  }
-  
-  .cards-servicios :hover{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-  
-}
-#elemento-brillo:hover{
-    animation-play-state: paused;
 }
 
 
@@ -155,8 +139,8 @@ header .container-menu {
 
 #clientes {
   width: 100%;
-  background-color: #5b5b5b;
-  height: 500px;
+  background-color: #feffff;
+  height: 300px;
   color: white;
 }
 #clientes h2 {
@@ -170,23 +154,51 @@ header .container-menu {
   height: 150px;
   display: flex;
   padding: 10px 0px;
-  /* 
-    align-items: center;
-    align-content: center; */
 }
 
 .container-clientes .card {
   width: 200px;
-  height: 50px;
-  background-color: #252525;
-  border: #252525;
+  height: 150px;
+  background-color: #ffffff00;
+  border: none;
   margin: 0px 30px;
   align-items: center;
+  align-content: center;
 }
 
 .logo-cliente {
   width: 150px;
 }
+
+
+.permisos{
+  background-color: #757575;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  color: white;
+}
+.permisos h2{
+  font-size: 50px;
+}
+.permisos .cards-permisos{
+  width: 100%;
+  background-color: red;
+  display: flex;
+}
+.card-permiso{
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  margin: 0px 50px;
+}
+
+
+
+
+
+
+
 
 .opiniones {
   width: 100%;
