@@ -153,8 +153,9 @@ header .container-menu {
 #clientes {
   width: 100%;
   background-color: #ffffff;
-  height: 300px;
+  height: 500px;
   color: white;
+  margin: 20px 0px;
 }
 
 #clientes h2 {
