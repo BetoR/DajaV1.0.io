@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
 }
 
@@ -101,7 +102,7 @@ header .container-menu {
 
 
 #servicios {
-  background-color: #def2f1;
+  background-color: #d0eeed;
   width: 100%;
   height: 800px;
   padding: 50px;
@@ -151,7 +152,7 @@ header .container-menu {
 
 #clientes {
   width: 100%;
-  background-color: #feffff;
+  background-color: #ffffff;
   height: 300px;
   color: white;
 }
@@ -227,17 +228,61 @@ header .container-menu {
 
 #vacantes {
   width: 100%;
-  height: 800px;
-  background-color: #3C6881;
+  height: 1020px;
+  background-color: #33586C;
   margin: 10px 0px;
 }
-
+.cards-vacantes{
+  display: flex;
+  margin: 0px 80px;
+}
 #vacantes h2 {
   font-size: 50px;
   font-weight: bold;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px 0px;
+  margin: 20px 0px;
+}
+#vacantes .card-vacantes{
+  /* background-color: #cb9696; */
+  width: 500px;
+  height: 600px;
+  color: white;
+  margin: 15px 50px;
+}
+.card-vacantes h3{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-vacantes .img-vacantes{
+  width: 400px;
+}
+.contacto-vacantes{
+  width: 80%;
+  height: 180px;
+  background-color: #568caf;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.contacto-vacantes h4{
+  font-weight: bold;
+  font-size: 25px;
+}
+.contacto-vacantes p{
+  font-size: 17px;
+  font-weight: normal;
+}
+
+#boton-contacto{
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #568caf;
+  border-color: white;
 }
 
 
@@ -295,6 +340,7 @@ header .container-menu {
   font-size: 14px;
 }
 
+
 .pie .card-footer a {
   text-decoration: none;
   color: #000000;
@@ -322,12 +368,12 @@ header .container-menu {
 
 .card-footer h3 {
   font-size: 15px;
+  font-weight: bold;
   text-align: center;
 }
 
-.card-footer h4 {
-  font-size: 15px;
-  text-align: center;
+.card-footer p{
+  font-weight: normal;
 }
 
 span {
