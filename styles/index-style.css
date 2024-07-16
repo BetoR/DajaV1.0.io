@@ -2,12 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   font-weight: bold;
 }
 
 header {
-  background-image: linear-gradient(to right, #000000, #D7B02C);
+  background-image: linear-gradient(to right, #000000, #d7b02c);
   background-size: contain;
   width: 100%;
   height: 180px;
@@ -25,10 +26,10 @@ header {
   padding-top: 20px;
 }
 
-.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .show > .nav-link {
   color: #ffffff;
 }
 
@@ -65,11 +66,6 @@ header .container-menu {
   margin: 15px;
   text-align: center;
 }
-
-
-
-
-
 
 .inicio {
   background-color: #000000;
@@ -116,9 +112,8 @@ header .container-menu {
   height: 100px;
 }
 
-
 #servicios {
-  background-color: #E6BD2D;
+  background-color: #e6bd2d;
   width: 100%;
   height: 800px;
   padding: 50px;
@@ -204,13 +199,10 @@ header .container-menu {
   width: 150px;
 }
 
-
-
-
 #permisos {
   /* 
   background-color: #182933; */
-  background-color: #D7B02C;
+  background-color: #d7b02c;
   width: 100%;
   height: 400px;
   text-align: center;
@@ -247,7 +239,6 @@ header .container-menu {
   height: 228px;
 }
 
-
 #vacantes {
   width: 100%;
   height: 1020px;
@@ -272,10 +263,10 @@ header .container-menu {
 
 #vacantes .card-vacantes {
   /* background-color: #cb9696; */
-  width: 500px;
-  height: 600px;
+  /* width: 500px; */
+  /* height: 600px; */
   color: white;
-  margin: 15px 50px;
+  /* margin: 15px 50px; */
 }
 
 .card-vacantes h3 {
@@ -284,9 +275,9 @@ header .container-menu {
   text-align: center;
 }
 
-.card-vacantes .img-vacantes {
+/* .card-vacantes .img-vacantes {
   width: 400px;
-}
+} */
 
 .contacto-vacantes {
   width: 80%;
@@ -323,18 +314,13 @@ header .container-menu {
   color: white;
 }
 
-
-
-
-
 .opiniones {
-  background-color: #D7B02C;
+  background-color: #d7b02c;
   width: 100%;
   height: 700px;
   display: flex;
   padding: 50px 0px;
 }
-
 
 .opiniones h3 {
   font-weight: bold;
@@ -369,7 +355,6 @@ header .container-menu {
   text-align: center;
 }
 
-
 .pie {
   width: 100%;
   height: 550px;
@@ -378,14 +363,13 @@ header .container-menu {
 
 .pie .card-footer {
   background-color: rgb(238, 238, 238);
-  width: 600px;
+  /* width: 600px; */
   height: auto;
-  margin: 20px;
+ /*  margin: 20px; */
   text-align: left;
   color: rgb(0, 0, 0);
   font-size: 14px;
 }
-
 
 .pie .card-footer a {
   text-decoration: none;
@@ -426,7 +410,6 @@ span {
   font-weight: bold;
 }
 
-
 #icon-ubicacion {
   width: 30px;
 }
@@ -458,23 +441,22 @@ footer {
   font-size: 13px;
 }
 
-@media (max-width:320px) {
-
+@media (min-width: 300px) and (max-width: 374px) {
   .navbar-toggler {
     border: none;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
   }
 
   .navbar-toggler-icon {
-    background-color: #D7B02C;
+    background-color: #d7b02c;
   }
 
   .container-logo {
     margin: 0px 50px;
   }
 
-  .inicio{
-   /*  background-color: rebeccapurple; */
+  .inicio {
+    /*  background-color: rebeccapurple; */
     width: 100%;
   }
   #carouselExampleIndicators img {
@@ -482,7 +464,8 @@ footer {
     padding: 15px;
   }
 
-  #conocenos{/* 
+  #conocenos {
+    /* 
     background-color: red; */
     display: block;
     width: 100%;
@@ -492,42 +475,42 @@ footer {
     padding-bottom: 50px;
   }
 
-   #conocenos .carta{
+  #conocenos .carta {
     /* background-color: blue; */
     margin: 0px;
     padding: 40px 0px;
-   } 
-   .carta{
+  }
+  .carta {
     width: 100%;
     height: 350px;
-   }
-   .carta h2{
+  }
+  .carta h2 {
     width: 100%;
-    font-size: 1.5rem;
-   }
-   .carta p{
+    font-size: 1.8rem;
+  }
+  .carta p {
     margin-top: 10px;
-   }
+  }
 
-   #servicios{
-    display:block;
+  #servicios {
+    display: block;
     width: 100%;
-    height: 2800px;
+    height: 2850px;
     margin: 0;
     padding: 0;
-   }
-   #servicios h2{
-    font-size: 1.8rem;
+  }
+  #servicios h2 {
+    font-size: 2.5rem;
     width: 100%;
-   }
-   .cards-servicios{
+  }
+  .cards-servicios {
     display: block;
     width: 100%;
     height: 1800px;
-    margin:  0px;
+    margin: 0px;
     padding: 0;
-   }
-   .card-servicios{
+  }
+  .card-servicios {
     /* background-color: wheat; */
     width: 100%;
     height: 550px;
@@ -536,5 +519,136 @@ footer {
     text-align: center;
     align-items: center;
     align-content: center;
-   }
+  }
+
+  #clientes{
+    display: block;
+    width: 100%;
+    height: 1030px;
+   /*  background-color: pink; */
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  #clientes h2{
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .container-clientes{
+    width: 100%;
+    display: block;
+    margin: 0px 30px;
+  }
+  .container-clientes .card{
+    /* background-color: teal; */
+    height: 180px;
+    padding:0px;
+  }
+
+  #permisos{
+    width: 100%;
+    height: 800px;
+  }
+  #permisos h2{
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .cards-permisos{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0px;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+  }
+
+  .card-permiso{
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+  }
+  .img-permisos1{
+    width: 270px;
+    height: auto;
+  }
+
+
+#vacantes{
+  width: 100%;
+  height: 1650px;
+  margin: 0;
+  padding: 0;
+}
+#vacantes h2{
+  width: 100%;
+  font-size: 2.5rem;
+}
+.cards-vacantes{
+  /* background-color: #3a2cd7; */
+  display: block;
+  width: 100%;
+  height: 1200px;
+  margin: 0px;
+  padding: 0;
+}
+.card-vacantes{
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+  padding: 20px;
+  margin: 0px;
+  /* border: solid white; */
+}
+
+.img-vacantes{
+  width: 100%;
+  height: auto;
+}
+
+.opiniones{
+  width: 100%;
+  height: 1600px;
+  display: block;
+
+}
+.opiniones h3{
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.card-opinion{
+  width: 230px;
+  height: auto;
+  margin: 10px 50px;
+}
+
+.pie{
+  width: 100%;
+  display: block;
+  height: 1250px;
+  /* background-color: #6578c7; */
+  margin: 0;
+  padding: 0;
+}
+.card-footer{
+  width: 290px;
+  text-align: center;
+  /* border-color: red; */
+  margin: 0 20px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+#mapa{
+  width: 250px;
+}
+
+
+
+
 }
