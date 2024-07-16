@@ -1,43 +1,216 @@
-<section id="servicios">
-      <h2>¿POR QUÉ ELEGIRNOS?</h2>
-      <section class="eleccion">
-        <ol>
-          <li>
-            Experiencia y Trayectoria en DAJA: Con una trayectoria sólida y años
-            de experiencia en el sector de seguridad privada, en DAJA hemos
-            demostrado nuestro compromiso con la protección efectiva de nuestros
-            clientes.
-          </li>
-          <li>
-            Equipo Altamente Capacitado de DAJA: Nuestro equipo está compuesto
-            por profesionales expertos y altamente capacitados, asegurando que
-            cada situación se maneje con habilidad y profesionalismo.
-          </li>
-          <li>
-            Integridad y Confianza: En DAJA, nos regimos por los más altos
-            estándares de integridad, asegurando transparencia y confianza en
-            todas nuestras operaciones y relaciones comerciales.
-          </li>
-          <li>
-            Uso de Tecnología Asequible y Eficaz: En DAJA, aprovechamos
-            tecnologías eficientes y accesibles que nos permiten ofrecer
-            soluciones de seguridad efectivas sin comprometer la calidad ni el
-            presupuesto de nuestros clientes.
-          </li>
-          <li>
-            Enfoque Personalizado de DAJA: En DAJA, nos enfocamos en ofrecer un
-            servicio al cliente excepcional y personalizado. Entendemos las
-            necesidades individuales de cada cliente y adaptamos nuestras
-            soluciones para garantizar su seguridad.
-          </li>
-          <li>
-            Reputación y Referencias de DAJA: Nuestra reputación en el mercado
-            está respaldada por testimonios positivos, referencias de clientes
-            satisfechos y casos de éxito probados. En DAJA, construimos
-            relaciones de confianza duraderas con nuestros clientes.
-          </li>
-        </ol>
-      </section>
-    </section>
+@media (min-width: 300px) and (max-width: 374px) {
+  .navbar-toggler {
+    border: none;
+    border-radius: 0.25rem;
+    z-index: 2000; /* Asegura que el menú hamburguesa esté por encima */
+    position:fixed;
+  }
 
-    
+
+  #carouselExampleIndicators img {
+    position: relative;
+    height: 180px;
+    padding: 15px;
+    z-index: 1000;
+  }
+  #conocenos {
+    /* 
+    background-color: red; */
+    display: block;
+    width: 100%;
+    height: 1080px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 50px;
+  }
+
+  #conocenos .carta {
+    /* background-color: blue; */
+    margin: 0px;
+    padding: 40px 0px;
+  }
+
+  .carta {
+    width: 100%;
+    height: 350px;
+  }
+
+  .carta h2 {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
+  .carta p {
+    margin-top: 10px;
+  }
+
+  #servicios {
+    display: block;
+    width: 100%;
+    height: 2850px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #servicios h2 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .cards-servicios {
+    display: block;
+    width: 100%;
+    height: 1800px;
+    margin: 0px;
+    padding: 0;
+  }
+
+  .card-servicios {
+    /* background-color: wheat; */
+    width: 100%;
+    height: 550px;
+    margin: 10px 0px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  #clientes {
+    display: block;
+    width: 100%;
+    height: 1030px;
+    /*  background-color: pink; */
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  #clientes h2 {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+
+  .container-clientes {
+    width: 100%;
+    display: block;
+    margin: 0px 30px;
+  }
+
+  .container-clientes .card {
+    /* background-color: teal; */
+    height: 180px;
+    padding: 0px;
+  }
+
+  #permisos {
+    width: 100%;
+    height: 800px;
+  }
+
+  #permisos h2 {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .cards-permisos {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0px;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+  }
+
+  .card-permiso {
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+  }
+
+  .img-permisos1 {
+    width: 270px;
+    height: auto;
+  }
+
+
+  #vacantes {
+    width: 100%;
+    height: 1650px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #vacantes h2 {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+
+  .cards-vacantes {
+    /* background-color: #3a2cd7; */
+    display: block;
+    width: 100%;
+    height: 1200px;
+    margin: 0px;
+    padding: 0;
+  }
+
+  .card-vacantes {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    padding: 20px;
+    margin: 0px;
+    /* border: solid white; */
+  }
+
+  .img-vacantes {
+    width: 100%;
+    height: auto;
+  }
+
+  .opiniones {
+    width: 100%;
+    height: 1600px;
+    display: block;
+
+  }
+
+  .opiniones h3 {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .card-opinion {
+    width: 230px;
+    height: auto;
+    margin: 10px 50px;
+  }
+
+  .pie {
+    width: 100%;
+    display: block;
+    height: 1250px;
+    /* background-color: #6578c7; */
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-footer {
+    width: 290px;
+    text-align: center;
+    /* border-color: red; */
+    margin: 0 20px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  #mapa {
+    width: 250px;
+  }
+}
