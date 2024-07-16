@@ -23,42 +23,52 @@
 </head>
 
 <body>
+
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <!-- aqui logo -->
-      <section class="container-logo">
-        <a href="/index.html">
-          <img src="/assets/logo/logoDaja.png" id="logo" alt="logo" />
-        </a>
-      </section>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="/index.html">INICIO<span class="sr-only">(current)</span></a>
+    <nav class="menu">
+      <section class="menu__container">
+        <section class="container_logo">
+          <a href="/index.html">
+            <img
+              src="/assets/logo/logoDaja.png"
+              id="logo"
+              alt=""
+            />
+          </a>
+        </section>
+
+        <ul class="menu__links">
+          <li class="menu__item">
+            <a href="/index.html" class="menu__link">INICIO</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#conocenos">CONOCENOS</a>
+
+          <li class="menu__item menu__item--show">
+            <a href="#" class="menu__link">CONOCENOS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#servicios"> SERVICIOS </a>
+
+          <li class="menu__item menu__item--show">
+            <a href="#servicios" class="menu__link">SERVICIOS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#clientes"> CLIENTES </a>
+
+          <li class="menu__item">
+            <a href="#clientes" class="menu__link">CLIENTES</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#permisos"> PERMISOS </a>
+
+          <li class="menu__item menu__item--show">
+            <a href="#permisos" class="menu__link">PERMISOS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#vacantes"> VACANTES </a>
+          <li class="menu__item menu__item--show">
+            <a href="#vacantes" class="menu__link">VACANTES</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#icon-mail"> CONTACTO </a>
+          <li class="menu__item menu__item--show">
+            <a href="#opiniones" class="menu__link">OPINIONES</a>
           </li>
         </ul>
-      </div>
+
+        <div class="menu__hamburguer">
+          <img src="assets/iconos/menu.png" class="menu__img" />
+        </div>
+      </section>
     </nav>
   </header>
 
@@ -409,6 +419,7 @@
         <a href="https://www.flaticon.es/" target="_blank">Iconos creados por Freepik - Flaticon</a>
       </p>
     </footer>
+    <script src="/scripts/script.js"></script>
 </body>
 
 </html>
