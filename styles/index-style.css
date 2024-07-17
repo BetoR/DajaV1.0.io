@@ -1127,14 +1127,13 @@ footer {
     padding: 15px;
   }
 
-  #conocenos {
-    /* 
+  #conocenos {/* 
     background-color: red; */
     display: block;
     width: 100%;
     height: 1080px;
     margin: 0px;
-    padding: 0px;
+    padding: 30px;
     padding-bottom: 50px;
   }
 
@@ -1161,9 +1160,9 @@ footer {
   #servicios {
     display: block;
     width: 100%;
-    height: 2850px;
+    height: 2900px;
     margin: 0;
-    padding: 0;
+    padding: 20px 30px;
   }
 
   #servicios h2 {
@@ -1193,10 +1192,10 @@ footer {
   #clientes {
     display: block;
     width: 100%;
-    height: 1030px;
+    height: 950px;
     /*  background-color: pink; */
     margin: 0;
-    padding: 0;
+    padding: 20px 0px;
     align-items: center;
   }
 
@@ -1220,6 +1219,7 @@ footer {
   #permisos {
     width: 100%;
     height: 800px;
+    padding: 10px 0px;
   }
 
   #permisos h2 {
@@ -1252,9 +1252,9 @@ footer {
 
   #vacantes {
     width: 100%;
-    height: 1650px;
-    margin: 0;
-    padding: 0;
+    height: 1560px;
+    margin: 10px 0px;
+    padding: 10px 0px;
   }
 
   #vacantes h2 {
@@ -1262,11 +1262,17 @@ footer {
     font-size: 2.5rem;
   }
 
+  #vacantes h3{
+    font-size: 1.1rem;
+    margin: 10px 0px;
+    padding: 0;
+  }
+
   .cards-vacantes {
     /* background-color: #3a2cd7; */
     display: block;
     width: 100%;
-    height: 1200px;
+    height: 1050px;
     margin: 0px;
     padding: 0;
   }
@@ -1280,6 +1286,12 @@ footer {
     /* border: solid white; */
   }
 
+  .contacto-vacantes{
+    width: 100%;
+    height: 210px;
+    padding: 10px 20px;
+  }
+
   .img-vacantes {
     width: 100%;
     height: auto;
@@ -1289,8 +1301,10 @@ footer {
     width: 100%;
     height: 1600px;
     display: block;
-
+    margin: 0;
+    padding: 20px 0px 20px 10px;
   }
+
 
   .opiniones h3 {
     font-size: 2.5rem;
@@ -1301,30 +1315,48 @@ footer {
   .card-opinion {
     width: 230px;
     height: auto;
-    margin: 10px 50px;
+    margin: 10px 36px;
   }
 
   .pie {
     width: 100%;
     display: block;
-    height: 1250px;
-    /* background-color: #6578c7; */
+    height: 1280px;
     margin: 0;
     padding: 0;
   }
-
   .card-footer {
     width: 290px;
     text-align: center;
-    /* border-color: red; */
     margin: 0 20px;
     padding: 10px;
     text-align: center;
     align-items: center;
     align-content: center;
   }
+  .direccion{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  .pie h3{
+    font-size: 1.5rem;
+  }
 
+  .pie h4{
+    font-weight: bold;
+  }
   #mapa {
     width: 250px;
+  }
+
+  footer h5{
+    font-size: 12px;
+  }
+  footer h6{
+    font-size: 12px;
+  }
+  footer p{
+    font-size: 5px;
   }
 }
