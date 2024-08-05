@@ -321,9 +321,9 @@
 
 .pie .card-footer {
   background-color: rgb(255, 255, 255);
-  /* width: 600px; */
+  width: 600px;
   height: auto;
-  /*  margin: 20px; */
+   margin: 20px;
   text-align: left;
   color: rgb(0, 0, 0);
   font-size: 14px;
@@ -396,7 +396,7 @@ span {
 footer {
   background-color: #142157;
   color: white;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 
