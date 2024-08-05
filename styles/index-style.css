@@ -419,14 +419,23 @@ footer {
   }
 
   #vacantes{
-    height: 840px;
+    height: 1000px;
   }
-  .card-vacantes{
-    margin: 0 30px;
-    width: 750px;
+  .cards-vacantes{/* 
+    background-color: blue; */
+    margin: 0;
+    padding: 0;
+  }
+  .card-vacantes{/* 
+    background-color: yellow; */
+    margin: 0px 30px ;
+    padding: 0;
+    width: 500px;
   }
   .img-vacantes{
-    width: 350px;
+    margin: 0;
+    padding: 0;
+    width: 400px;
   }
 
     .card-footer{
