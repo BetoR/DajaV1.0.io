@@ -990,7 +990,7 @@ footer {
 
   #clientes {
     width: 100%;
-    height: 1190px;/* 
+    height: 1750px;/* 
      background-color: pink; */
     margin: 0;
     padding: 10px 0px;
@@ -1004,7 +1004,8 @@ footer {
     text-align: center;
   }
 
-  .container-clientes {/* 
+  .container-clientes {
+    /* 
     background-color: aqua; */
     width: 100%;
     height: auto;
@@ -1015,7 +1016,8 @@ footer {
     align-content: center;
   }
 
-  .container-clientes .card {/* 
+  .container-clientes .card {
+    /* 
     background-color: teal; */
     width: 100%;
     height: 156px;
@@ -1026,6 +1028,8 @@ footer {
   #permisos {
     width: 100%;
     height: 800px;
+    margin: 0px;
+    padding: 0px;
   }
 
   #permisos h2 {
@@ -1057,7 +1061,7 @@ footer {
 
   #vacantes {
     width: 100%;
-    height: 1600px;
+    height: 1680px;
     margin: 10px 0px;
     padding: 10px 0px;
   }
@@ -1077,7 +1081,7 @@ footer {
     /* background-color: #3a2cd7; */
     display: block;
     width: 100%;
-    height: 1100px;
+    height: 1200px;
     margin: 0px;
     padding: 0;
   }
