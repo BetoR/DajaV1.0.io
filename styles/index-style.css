@@ -171,8 +171,8 @@
   height: 380px;
   padding: 0px 300px;
   text-align: center;
-  align-items: center;
-  align-content: center;
+  /* align-items: center;
+  align-content: center; */
   color: white;
 }
 
@@ -1229,7 +1229,7 @@ footer {
   #servicios {
     display: block;
     width: 100%;
-    height: 2900px;
+    height: 3200px;
     margin: 0;
     padding: 20px 30px;
   }
@@ -1240,31 +1240,36 @@ footer {
   }
 
   .cards-servicios {
+   /*  background-color: red; */
     display: block;
     width: 100%;
-    height: 1800px;
-    margin: 0px;
+    margin: 10px 0px;
     padding: 0;
   }
 
   .card-servicios {
     /* background-color: wheat; */
     width: 100%;
-    height: 550px;
+    height: 600px;
     margin: 10px 0px;
     padding: 0;
     text-align: center;
     align-items: center;
     align-content: center;
   }
+  
+  .card-servicios .img-card-servicios{
+    width: 240px;
+    height: 350px;
+  }
 
   #clientes {
     display: block;
     width: 100%;
-    height: 950px;
+    height: 1990px;
     /*  background-color: pink; */
     margin: 0;
-    padding: 20px 0px;
+    padding: 10px 0px;
     align-items: center;
   }
 
@@ -1274,25 +1279,32 @@ footer {
   }
 
   .container-clientes {
+    /* background-color: aqua; */
     width: 100%;
+    height: auto;
     display: block;
-    margin: 0px 30px;
+    padding: 0px 25px;
   }
 
   .container-clientes .card {
-    /* background-color: teal; */
+   /*  background-color: teal; */
     height: 180px;
     padding: 0px;
+    align-items: center;
+    align-content: center;
   }
 
   #permisos {
     width: 100%;
-    height: 850px;
-    padding: 10px 0px;
+    height: 800px;
+    padding: 1px 0px;
+    margin: 0px;
   }
 
   #permisos .cards-permisos{
     display:block;
+    margin: 0px;
+    padding: 0px;
   }
 
   #permisos h2 {
@@ -1325,7 +1337,7 @@ footer {
 
   #vacantes {
     width: 100%;
-    height: 1560px;
+    height: 1600px;
     margin: 10px 0px;
     padding: 10px 0px;
   }
@@ -1342,10 +1354,10 @@ footer {
   }
 
   .cards-vacantes {
-    /* background-color: #3a2cd7; */
+   /*  background-color: #3a2cd7; */
     display: block;
     width: 100%;
-    height: 1050px;
+    height: 1150px;
     margin: 0px;
     padding: 0;
   }
