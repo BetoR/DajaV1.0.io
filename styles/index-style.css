@@ -422,6 +422,50 @@ footer {
     color: #ffffff;
   }
 
+  .logo{
+    width: 290px;
+  }
+
+  #carouselExampleIndicators img {
+    width: 100%;
+    height: 450px;
+    padding: 20px 150px;
+    z-index: 2;
+  }
+
+  #conocenos{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 350px;
+    display: flex;
+  }
+
+  #conocenos h2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  .carta {
+    /* background-color: #d7b02c; */
+    width: 500px;
+    height: 300px;
+    margin: 0 30px;
+    text-align: center;
+  }
+  
+  #logo-carta {
+    width: 180px;
+  }
+  
+  .carta p {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+  }
+  
+  .icono-mivi {
+    height: 100px;
+  }
+
   #permisos .cards-permisos {
     /* 
   background-color: red; */
